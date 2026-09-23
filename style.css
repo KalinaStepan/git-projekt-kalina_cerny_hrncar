@@ -12,3 +12,11 @@ header {
     border-radius: 8px;
     margin-bottom: 20px;
 }
+button {
+    background-color: rgb(255, 0, 157);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
