@@ -17,6 +17,6 @@
 
                     Pracovali jsme na webovce podstivě a kooperovali jsme.
 
-                    
+
 
 
