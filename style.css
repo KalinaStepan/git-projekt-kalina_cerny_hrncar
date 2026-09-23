@@ -4,3 +4,11 @@ body{
     margin:0;
     padding:10px;
 }
+header {
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
