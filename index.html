@@ -1,26 +1,51 @@
 <!DOCTYPE html>
+
 <html lang="cs">
+
 <head>
+
 <meta charset="UTF-8">
+
 <title>Formulář</title>
+
+<script src="script.js" defer></script>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<form action="#" method="post">
-  <label for="jmeno">Jméno:</label>
-  <input type="text" id="jmeno" name="jmeno" required>
-  <br>
 
-  <label for="email">E-mail:</label>
-  <input type="email" id="email" name="email" required>
-  <br>
 
-  <label for="zprava">Zpráva:</label>
-  <textarea id="zprava" name="zprava" rows="5" cols="40"></textarea>
-  <br>
+<form name="formular">
 
-  <button type="submit">Odeslat</button>
-</form>
+        <u><h1>Výpočet kruhu a koule</h1></u>
+
+
+
+        <label for="r">Zadej poloměr</label><input type="text" name="r" size="20">
+
+        <hr>
+
+        
+
+        <input type="button" value="SPOČÍTAT" id="tlacitko" onclick="vypocet()">
+
+        <label for="delka">Délka kružnice</label><input type="text" name="delka" size="20">
+
+        
+
+        <label for="obsah">Obsah kruhu</label><input type="text" name="obsah" size="20">
+
+        <label for="objem">Objem koule</label><input type="text" name="objem" size="20">
+
+        <label for="povrch">Povrch koule</label><input type="text" name="povrch" size="20">
+
+
+    </form>
+
+
 
 </body>
+
 </html>
+
